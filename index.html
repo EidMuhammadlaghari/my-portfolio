@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My portfolio</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/utilities.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left"><img src="img/logo.png" alt="eid logo" width="83px"></div>
+            <div class="right">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="/">Services</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact Me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="firstsection" id="home">
+            <div class="leftsection">
+                <div class="name">
+                    Hi, My name is <span class="purple">Eid Muhammad</span>
+                </div>
+                <div class="ab">and I am a passionate</div>
+                <span id="element" class="purple"></span>
+                <div class="buttons">
+                    <button class="btn" id="git" onclick="redirectToGitHub()">Visit Github</button>
+                    <button class="btn" id="res">Download Resume</button>
+                </div>
+            </div>
+            <div class="rightsection">
+                <img src="img/developer.png" alt="">
+            </div>
+        </section>
+
+        <hr>
+
+        <!-- Skills -->
+        <section id="skills">
+            <h2>Skills</h2>
+            <div style="clear:both;"></div>
+
+            <div class="all_skills">
+                <div class="skill anima">
+                    <img src="html_finalprojimages/html5.png">
+                    <h6>HTML</h6>
+                    <p>1 years experience</p>
+                </div>
+                <div class="skill anima">
+                    <img src="html_finalprojimages/CSS3.png">
+                    <h6>CSS</h6>
+                    <p>2 years experience</p>
+                </div>
+                <div class="skill anima">
+                    <img src="img/java-script.png">
+                    <h6>JavaScript</h6>
+                    <p>0.5 years experience</p>
+                </div>
+
+                <div class="skill anima">
+                    <img src="html_finalprojimages/java.png">
+                    <h6>Java</h6>
+                    <p>2 years experience</p>
+                </div>
+
+                <div class="skill anima">
+                    <img src="img/docker.png">
+                    <h6>Docker</h6>
+                    <p>1 years experience</p>
+                </div>
+
+                <div class="skill anima">
+                    <img src="img/kubernaties.png">
+                    <h6>Kubernete</h6>
+                    <p>1 years experience</p>
+                </div>
+
+                <div class="skill anima">
+                    <img src="img/chef.svg">
+                    <h6>Chef</h6>
+                    <p>0.6 year experience</p>
+                </div>
+
+                <div class="skill anima">
+                    <img src="img/CICDBlog.webp">
+                    <h6>CI/CD</h6>
+                    <p>0.5 years experience</p>
+                </div>
+            </div>
+            </section>
+
+            <hr>
+
+            <!-- project section -->
+
+            <section class="project-card" id="projects">
+                <h2>
+                    Projects
+                </h2>
+                <div style="clear:both;"></div>
+
+                <div id="projects-container" class="projects-container">
+                    <div class="project-card anima" id="card">
+                        <h3>School Managment System</h3>
+                        <ul>
+                            <li>Developed this project using the javafx, core java and by using the css3 for the
+                                styling purpose</li>
+                        </ul>
+                    </div>
+                    <hr>
+                    <div class="project-card anima" id="card">
+                        <h3>Flipkart</h3>
+                        <ul>
+                            <li>cloned the flipkart website suing the html5, css3 and javaScript</li>
+                        </ul>
+                    </div>
+                    <hr>
+                    <div class="project-card anima" id="card">
+                        <h3>Digital clock</h3>
+                        <ul>
+                            <li>Developed the digital clock using the html5, css3 and javaScript</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+            <hr>
+
+            <!-- certificates -->
+            <section class="certificates" id="certificates">
+                <h2>Certificates</h2>
+                <div style="clear:both;"></div>
+                <div class="all_certificates">
+                    <div class="cert width margin anima">
+                        <a href="https://coursera.org/share/0a1bde315de1e8a19e69e031720fdeec" target="_blank">
+                            <img src="img/web-1.png" alt="web">
+                            <p>Certification of Front-end Developmen from IBM</p>
+                        </a>
+                    </div>
+                    <div class="cert width margin anima">
+                        <a href="https://coursera.org/share/a7cc0c86be26f8ccaef1453f32ac63f3" target="_blank">
+                            <img src="img/devops.png" alt="devops">
+                            <p>Certification of DevOps from IBM</p>
+                        </a>
+                    </div>
+                    <div class="cert width margin anima">
+                        <a href="https://coursera.org/share/a019903316fcc7d3ba28a4d7c85f3dbf" target="_blank">
+                            <img src="img/cloud-1.png" alt="cloud">
+                            <p>Certification of Cloud Computing from IBM</p>
+                        </a>
+                    </div>
+                    <div class="cert width margin anima">
+                        <a href="https://coursera.org/share/2ae7091d9e003c89292c9d30617c1236" target="_blank"><img src="img/agile.png" alt="agile">
+                            <p>Honors Certification of Agile Development and Scrum <br>from IBM</p>
+                        </a>
+                    </div>
+                </div>
+            </section>
+    </main>
+
+    <footer>
+        <section class="contact" id="contact">
+            <div class="inf">
+                <ul>
+                    <h1>Contact Me</h1>
+                    <li><a href="https://www.fiverr.com/ecodes467?up_rollout=true" target="_blank"><img
+                                src="img/fiverr.jpg" alt="whatsapp" class="fiver"></a></li>
+                    <li><a href="https://m.me/EidMuhammadLaghari" target="_blank"><img src="img/facebook.png"
+                                alt="facebook"></a></li>
+                    <li><a href="https://api.whatsapp.com/send?phone=923313742843" target="_blank"><img
+                                src="img/whatsapp.png" alt="whatsapp"></a></li>
+                </ul>
+            </div>
+
+            <div class="dev_info">
+                <ul>
+                    <h1>Developed By</h1>
+                    <p>This portfolio is developed by Eid Muhammad Laghari</p>
+                </ul>
+            </div>
+            <div class="langua">
+                <ul>
+                    <h1>Languages Used</h1>
+                    <div class="lan">
+                        <div class="html"></div>
+                        <div class="css"></div>
+                        <div class="javascript"></div>
+                    </div>
+                    <br>
+                    <br>
+                    <div class="icon">
+                        <div class="ht"></div>HTML
+                        <div class="cs"></div>CSS
+                        <div class="ja"></div>JAVASCRIPT
+                    </div>
+                </ul>
+            </div>
+        </section>
+        <div>
+            <p>copyright &copy; ECodes</p>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+</body>
+<script src="javascript/script.js"></script>
+
+</html>
